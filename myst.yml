@@ -19,6 +19,6 @@ site:
   template: book-theme
   title: Machine Learning for Factor Investing
   options:
-    logo: /logo.png
+    logo: images/logo.png
   domains:
     - uncainny.com
