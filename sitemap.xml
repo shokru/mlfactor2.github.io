@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3006/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3006</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3006/chap-01-notations</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3006/chap-02-introduction</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3006/chap-03-asset-pricing</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3006/bibliography</loc>
+  </url>
+</urlset>
