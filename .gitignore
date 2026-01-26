@@ -1,5 +1,3 @@
-.vercel
 .env*.local
-
-# MyST build outputs
 _build
+.myst/
