@@ -18,6 +18,7 @@ project:
 site:
   template: book-theme
   title: Machine Learning for Factor Investing
+  base_url: https://www.uncainny.com
   options:
     logo: images/logo.png
   domains:
