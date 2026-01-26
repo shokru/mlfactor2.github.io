@@ -1,0 +1,11 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: chap_00_preface
+
+chapters:
+- file: chap_01_notations
+- file: chap_02_introduction
+- file: chap_03_asset_pricing
+- file: bibliography
