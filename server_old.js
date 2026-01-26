@@ -4,8 +4,6 @@
  * This script solves the problem where MyST only binds to localhost.
  * It starts MyST on localhost, then creates an HTTP proxy that binds
  * to 0.0.0.0 (all interfaces) so Railway can route traffic to it.
- * 
- * It also rewrites localhost:3100 URLs in JSON responses to fix asset loading.
  */
 
 const http = require('http');
@@ -44,10 +42,10 @@ mystProcess.on('close', (code) => {
   process.exit(code);
 });
 
-// Create proxy server for normal requests
+// Create proxy server
 const proxy = httpProxy.createProxyServer({
   target: `http://localhost:${MYST_PORT}`,
-  ws: true
+  ws: true, // Enable WebSocket proxying for live reload
 });
 
 proxy.on('error', (err, req, res) => {
@@ -60,49 +58,7 @@ proxy.on('error', (err, req, res) => {
 
 // Create HTTP server that binds to all interfaces
 const server = http.createServer((req, res) => {
-  // For config.json, we need to intercept and rewrite localhost URLs
-  if (req.url === '/config.json' || req.url.startsWith('/config.json?')) {
-    const options = {
-      hostname: 'localhost',
-      port: MYST_PORT,
-      path: req.url,
-      method: req.method,
-      headers: { ...req.headers, host: `localhost:${MYST_PORT}` }
-    };
-    
-    const proxyReq = http.request(options, (proxyRes) => {
-      let body = [];
-      
-      proxyRes.on('data', chunk => body.push(chunk));
-      proxyRes.on('end', () => {
-        let content = Buffer.concat(body).toString('utf8');
-        
-        // Get the public host from the request
-        const host = req.headers.host || 'localhost';
-        const protocol = req.headers['x-forwarded-proto'] || 'https';
-        
-        // Rewrite localhost:3100 URLs to the public URL
-        content = content.replace(/http:\/\/localhost:3100/g, `${protocol}://${host}`);
-        
-        // Set response headers
-        res.setHeader('Content-Type', 'application/json');
-        res.setHeader('Cache-Control', 'no-cache');
-        res.statusCode = proxyRes.statusCode;
-        res.end(content);
-      });
-    });
-    
-    proxyReq.on('error', (err) => {
-      console.error('Config proxy error:', err.message);
-      res.writeHead(502);
-      res.end('Error fetching config');
-    });
-    
-    proxyReq.end();
-  } else {
-    // For all other requests, proxy normally
-    proxy.web(req, res);
-  }
+  proxy.web(req, res);
 });
 
 // Handle WebSocket upgrades (for MyST live reload)
@@ -115,10 +71,9 @@ setTimeout(() => {
   server.listen(PUBLIC_PORT, '0.0.0.0', () => {
     console.log(`\n✅ Proxy server listening on 0.0.0.0:${PUBLIC_PORT}`);
     console.log(`   Forwarding to MyST at localhost:${MYST_PORT}`);
-    console.log(`   Rewriting config.json to fix asset URLs`);
     console.log(`\n🌐 Your site should be accessible now!\n`);
   });
-}, 3000);
+}, 3000); // Give MyST 3 seconds to start
 
 // Graceful shutdown
 process.on('SIGTERM', () => {
