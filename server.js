@@ -58,42 +58,6 @@ proxy.on('error', (err, req, res) => {
 
 // Create HTTP server that binds to all interfaces
 const server = http.createServer((req, res) => {
-  // Intercept the response to rewrite localhost URLs
-  const originalWrite = res.write;
-  const originalEnd = res.end;
-  const chunks = [];
-
-  res.write = function(chunk) {
-    chunks.push(Buffer.from(chunk));
-    return true;
-  };
-
-  res.end = function(chunk) {
-    if (chunk) {
-      chunks.push(Buffer.from(chunk));
-    }
-
-    const buffer = Buffer.concat(chunks);
-    const contentType = res.getHeader('content-type') || '';
-
-    // Only rewrite JSON and HTML responses
-    if (contentType.includes('application/json') || contentType.includes('text/html')) {
-      let content = buffer.toString('utf8');
-      
-      // Replace localhost:3000 and localhost:3100 with the actual host
-      const actualHost = req.headers.host || 'localhost';
-      const protocol = req.headers['x-forwarded-proto'] || 'https';
-      content = content.replace(/http:\/\/localhost:3000/g, `${protocol}://${actualHost}`);
-      content = content.replace(/http:\/\/localhost:3100/g, `${protocol}://${actualHost}`);
-      
-      res.setHeader('content-length', Buffer.byteLength(content));
-      originalEnd.call(res, content);
-    } else {
-      // For other content types, pass through unchanged
-      originalEnd.call(res, buffer);
-    }
-  };
-
   proxy.web(req, res);
 });
 
