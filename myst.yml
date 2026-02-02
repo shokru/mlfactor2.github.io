@@ -16,10 +16,17 @@ project:
     - file: chap_04_data_processing.ipynb
     - file: chap_05_lasso.ipynb
     - file: chap_06_trees.ipynb
+    - file: chap_07_neural_networks.ipynb
+    - file: chap_08_support_vector.ipynb
+    - file: chap_09_bayes.ipynb
+    - file: chap_10_validating_tuning.ipynb
+    - file: chap_11_ensemble.ipynb
     - file: bibliography.md
   exports:
     - format: pdf  
   numbering:
+    headings: true
+    start-at: 1
     equation:
       template: "%s.%s"  # chapter.equation format  
 

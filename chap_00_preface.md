@@ -45,9 +45,9 @@ The book assumes basic knowledge in **algebra** (matrix manipulation), **analysi
 The book is divided into four parts.
 
 
-Part I gathers preparatory material and starts with notations and data presentation (Chapter 1), followed by introductory remarks (Chapter 2). Chapter 3 outlines the economic foundations (theoretical and empirical) of factor investing and briefly sums up the dedicated recent literature. Chapter 4 deals with data preparation. It rapidly recalls the basic tips and warns about some major issues.
+Part I gathers preparatory material and starts with notations and data presentation (Chapter 1), followed by introductory remarks (Chapter {ref}`2<chap_intro>`). Chapter {ref}`3<chap_asset_pricing>` outlines the economic foundations (theoretical and empirical) of factor investing and briefly sums up the dedicated recent literature. (Chapter {ref}`4<chap_data>`) deals with data preparation. It rapidly recalls the basic tips and warns about some major issues.
 
-Part II of the book is dedicated to predictive algorithms in supervised learning. Those are the most common tools that are used to forecast financial quantities (returns, volatilities, Sharpe ratios, etc.). They range from penalized regressions (Chapter 5), to tree methods (Chapter 6), encompassing neural networks (Chapter 7), support vector machines (Chapter 8) and Bayesian approaches (Chapter 9).
+Part II of the book is dedicated to predictive algorithms in supervised learning. Those are the most common tools that are used to forecast financial quantities (returns, volatilities, Sharpe ratios, etc.). They range from penalized regressions (Chapter {ref}`5<chap_lasso>`), to tree methods (Chapter 6), encompassing neural networks (Chapter 7), support vector machines (Chapter 8) and Bayesian approaches (Chapter 9).
 
 The next portion of the book bridges the gap between these tools and their applications in finance. Chapter 10 details how to assess and improve the ML engines defined beforehand. Chapter 11 explains how models can be combined and often why that may not be a good idea. Finally, one of the most important chapters (Chapter 12) reviews the critical steps of portfolio backtesting and mentions the frequent mistakes that are often encountered at this stage.
 
@@ -55,7 +55,7 @@ The end of the book covers a range of advanced topics connected to machine learn
 
 ## Coding instructions
 
-One of the purposes of the book is to propose a large-scale tutorial of ML applications in financial predictions and portfolio selection. Thus, one keyword is **REPRODUCIBILITY**! In order to duplicate our results (up to possible randomness in some learning algorithms), you will need running versions of Python and Anaconda on your computer.
+One of the purposes of the book is to propose a large-scale tutorial of ML applications in financial predictions and portfolio selection. Thus, one keyword is **REPRODUCIBILITY**! In order to duplicate our results (up to possible randomness in some learning algorithms), you will need a running version of Python on your computer.
 
 [texte du lien](https://)A list of the packages we use can be found in the Table below.
 
@@ -108,5 +108,5 @@ For the first edition, we were grateful to Bertrand Tavin and Gautier Marti for 
 
 The second version has benefitted from a large number of conversations with academics and practitioners, including Arnaud Battistella, Jean-Charles Bertrand, Guillaume Chevallier, Jean-Michel Maeso (again!), Nicholas McLoughlin, Thomas Raffinot.
 
-Finally, we must acknowledge great help by several LLMs for the processing of references while recycling old files, especially Claude. Life is not the same without them, yet we must use them with caution.
+Finally, we must acknowledge great help by several LLMs for the processing of references while recycling old files, especially Claude Opus 4.5. Life is not the same without them, yet we must use them with caution.
 
