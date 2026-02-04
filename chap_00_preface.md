@@ -108,5 +108,5 @@ For the first edition, we were grateful to Bertrand Tavin and Gautier Marti for 
 
 The second version has benefitted from a large number of conversations with academics and practitioners, including Arnaud Battistella, Jean-Charles Bertrand, Guillaume Chevallier, Jean-Michel Maeso (again!), Nicholas McLoughlin, Thomas Raffinot.
 
-Finally, we must acknowledge great help by several LLMs for the processing of references while recycling old files, especially Claude Opus 4.5. Life is not the same without them, yet we must use them with caution.
+Finally, we must acknowledge great help by several LLMs for the processing of references while recycling old files, especially Claude Code and Opus 4.5. Life is not the same without them, yet we must use them with caution.
 
