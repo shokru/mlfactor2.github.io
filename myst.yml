@@ -8,6 +8,7 @@ project:
   github: https://github.com/shokru/mlfactor2.github.io
   bibliography:
     - references.bib
+    - bib.bib
   
   toc:
     - file: chap_00_preface.md
