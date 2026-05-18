@@ -40,6 +40,7 @@ project:
         - file: chap_12_validating_tuning.ipynb
         - file: chap_13_ensemble.ipynb
         - file: chap_14_portfolio_backtesting.ipynb
+        - file: chap_15_uncertainty.ipynb
         
     # Part 4: Further important concepts
     - title: Further important concepts
