@@ -18,6 +18,7 @@ project:
     # Part 1: Introduction
     - title: Introduction
       children:
+        - file: chap_00_preface.md
         - file: chap_01_notations.ipynb
         - file: chap_02_introduction.ipynb
         - file: chap_03_asset_pricing.ipynb
@@ -44,10 +45,10 @@ project:
     - title: Further important concepts
       children:
         - file: chap_16_complexity.ipynb 
-        - file: chap_16_interpretability.ipynb
-        - file: chap_17_causality.ipynb
-        - file: chap_18_unsupervised.ipynb
-        - file: chap_19_reinforcement_learning.ipynb
+        - file: chap_17_interpretability.ipynb
+        - file: chap_18_causality.ipynb
+        - file: chap_19_unsupervised.ipynb
+        - file: chap_20_reinforcement_learning.ipynb
         
     - file: bibliography.md
   exports:
