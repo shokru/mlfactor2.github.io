@@ -9,6 +9,8 @@ project:
   bibliography:
     - references.bib
     - bib.bib
+    - predictability.bib
+    - complexity.bib
   
   toc:
     - file: chap_00_preface.md
@@ -19,16 +21,17 @@ project:
         - file: chap_01_notations.ipynb
         - file: chap_02_introduction.ipynb
         - file: chap_03_asset_pricing.ipynb
-        - file: chap_04_data_processing.ipynb
+        - file: chap_04_predictability.ipynb
+        - file: chap_05_data_processing.ipynb
         
     # Part 2: Common supervised algorithms
     - title: Common supervised algorithms
       children:
-        - file: chap_05_lasso.ipynb
-        - file: chap_06_trees.ipynb
-        - file: chap_07_neural_networks.ipynb
-        - file: chap_08_support_vector.ipynb
-        - file: chap_09_bayes.ipynb
+        - file: chap_06_lasso.ipynb
+        - file: chap_07_trees.ipynb
+        - file: chap_08_neural_networks.ipynb
+        - file: chap_09_support_vector.ipynb
+        - file: chap_10_bayes.ipynb
         
     # Part 3: From predictions to portfolios
     - title: From predictions to portfolios
@@ -40,6 +43,7 @@ project:
     # Part 4: Further important concepts
     - title: Further important concepts
       children:
+        - file: chap_16_complexity.ipynb 
         - file: chap_16_interpretability.ipynb
         - file: chap_17_causality.ipynb
         - file: chap_18_unsupervised.ipynb
