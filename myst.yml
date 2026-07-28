@@ -11,6 +11,7 @@ project:
     - bib.bib
     - predictability.bib
     - complexity.bib
+    - nlp.bib
   
   toc:
     - file: chap_00_preface.md
@@ -45,18 +46,18 @@ project:
     # Part 4: Further important concepts
     - title: Further important concepts
       children:
-        - file: chap_16_complexity.ipynb 
-        - file: chap_17_interpretability.ipynb
-        - file: chap_18_causality.ipynb
-        - file: chap_19_unsupervised.ipynb
-        - file: chap_20_reinforcement_learning.ipynb
+        - file: chap_17_complexity.ipynb
+        - file: chap_18_interpretability.ipynb
+        - file: chap_19_causality.ipynb
+        - file: chap_20_unsupervised.ipynb
+        - file: chap_21_reinforcement_learning.ipynb
         
     # Part 5: Natural language processing for factor investing
     - title: Natural language processing for factor investing
       children:
         - file: chap_22_nlp_classic.ipynb
         - file: chap_23_nlp_embeddings.ipynb
-        - file: chap_24_transformers.ipynb
+        - file: chap_24_nlp_transformers.ipynb
         - file: chap_25_nlp_llms.ipynb
         - file: chap_26_nlp_case_study.ipynb
 
