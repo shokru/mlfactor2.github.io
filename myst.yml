@@ -51,6 +51,15 @@ project:
         - file: chap_19_unsupervised.ipynb
         - file: chap_20_reinforcement_learning.ipynb
         
+    # Part 5: Natural language processing for factor investing
+    - title: Natural language processing for factor investing
+      children:
+        - file: chap_22_nlp_classic.ipynb
+        - file: chap_23_nlp_embeddings.ipynb
+        - file: chap_24_transformers.ipynb
+        - file: chap_25_nlp_llms.ipynb
+        - file: chap_26_nlp_case_study.ipynb
+
     - file: bibliography.md
   exports:
     - format: pdf  
