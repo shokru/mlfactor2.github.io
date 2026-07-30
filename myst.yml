@@ -12,6 +12,7 @@ project:
     - predictability.bib
     - complexity.bib
     - nlp.bib
+    - ga.bib
   
   toc:
     - file: chap_00_preface.md
@@ -34,6 +35,7 @@ project:
         - file: chap_08_neural_networks.ipynb
         - file: chap_09_support_vector.ipynb
         - file: chap_10_bayes.ipynb
+        - file: chap_11_genetic_algorithms.ipynb
         
     # Part 3: From predictions to portfolios
     - title: From predictions to portfolios
