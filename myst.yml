@@ -67,6 +67,8 @@ project:
         - file: chap_26_nlp_llms.ipynb
         - file: chap_27_nlp_case_study.ipynb
 
+    - file: solutions.md
+
     - file: bibliography.md
   exports:
     - format: tex

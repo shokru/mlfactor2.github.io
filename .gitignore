@@ -1,3 +1,6 @@
 .env*.local
 _build
 .myst/
+exports/
+.DS_Store
+node_modules/
