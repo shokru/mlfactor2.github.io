@@ -13,6 +13,8 @@ project:
     - complexity.bib
     - nlp.bib
     - ga.bib
+    - design.bib
+    - gnn.bib
   
   toc:
     - file: chap_00_preface.md
@@ -33,39 +35,46 @@ project:
         - file: chap_06_lasso.ipynb
         - file: chap_07_trees.ipynb
         - file: chap_08_neural_networks.ipynb
-        - file: chap_09_support_vector.ipynb
-        - file: chap_10_bayes.ipynb
-        - file: chap_11_genetic_algorithms.ipynb
+        - file: chap_09_gnn.ipynb
+        - file: chap_10_support_vector.ipynb
+        - file: chap_11_bayes.ipynb
+        - file: chap_12_genetic_algorithms.ipynb
         
     # Part 3: From predictions to portfolios
     - title: From predictions to portfolios
       children:
-        - file: chap_12_validating_tuning.ipynb
-        - file: chap_13_ensemble.ipynb
-        - file: chap_14_portfolio_backtesting.ipynb
-        - file: chap_15_uncertainty.ipynb
+        - file: chap_13_validating_tuning.ipynb
+        - file: chap_14_ensemble.ipynb
+        - file: chap_15_portfolio_backtesting.ipynb
+        - file: chap_16_uncertainty.ipynb
+        - file: chap_17_design_uncertainty.ipynb
         
     # Part 4: Further important concepts
     - title: Further important concepts
       children:
-        - file: chap_17_complexity.ipynb
-        - file: chap_18_interpretability.ipynb
-        - file: chap_19_causality.ipynb
-        - file: chap_20_unsupervised.ipynb
-        - file: chap_21_reinforcement_learning.ipynb
+        - file: chap_18_complexity.ipynb
+        - file: chap_19_interpretability.ipynb
+        - file: chap_20_causality.ipynb
+        - file: chap_21_unsupervised.ipynb
+        - file: chap_22_reinforcement_learning.ipynb
         
     # Part 5: Natural language processing for factor investing
     - title: Natural language processing for factor investing
       children:
-        - file: chap_22_nlp_classic.ipynb
-        - file: chap_23_nlp_embeddings.ipynb
-        - file: chap_24_nlp_transformers.ipynb
-        - file: chap_25_nlp_llms.ipynb
-        - file: chap_26_nlp_case_study.ipynb
+        - file: chap_23_nlp_classic.ipynb
+        - file: chap_24_nlp_embeddings.ipynb
+        - file: chap_25_nlp_transformers.ipynb
+        - file: chap_26_nlp_llms.ipynb
+        - file: chap_27_nlp_case_study.ipynb
 
     - file: bibliography.md
   exports:
-    - format: pdf  
+    - format: tex
+      template: ./templates/mlfactor_book
+      output: exports/mlfactor2_tex/
+    - format: pdf
+      template: ./templates/mlfactor_book
+      output: exports/mlfactor2.pdf
   numbering:
     headings: true
     start-at: 1

@@ -1,0 +1,477 @@
+\contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}Preface}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}What this book is not about}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}The targeted audience}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}How this book is structured}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Coding instructions}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Acknowledgments}{5}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Notations and data}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Notations}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Dataset}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Presentation}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Exploration}{7}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {3}Introduction}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Context}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Portfolio construction: the workflow}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Machine Learning is no magic wand}{12}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Factor investing and asset pricing anomalies}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction: why factors?}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}The factor zoo}{16}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}The canonical factors}{16}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Theoretical foundations}{17}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Time-varying premia and anomaly dynamics}{19}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Fading anomalies and replicability}{19}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Detecting and testing anomalies}{21}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Challenges}{21}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Simple portfolio sorts}{22}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Predictive regressions, sorts, and p-value issues}{23}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Fama-MacBeth regressions}{25}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Factor competition and redundancy}{27}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Advanced selection techniques}{30}{subsection.4.3.6}%
+\contentsline {section}{\numberline {4.4}Factors or characteristics?}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Demand-based asset pricing}{32}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Factor dynamics: momentum, timing, and ESG}{33}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Factor momentum}{33}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Factor timing}{34}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}The green factors}{34}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Machine learning meets asset pricing}{35}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}The canonical predictive model}{35}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Further references}{36}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Explicit connections with asset pricing models}{36}{subsection.4.7.3}%
+\contentsline {subsubsection}{Stochastic discount factor estimation}{37}{section*.10}%
+\contentsline {subsubsection}{Time-varying factor loadings}{37}{section*.11}%
+\contentsline {subsubsection}{Characteristics-dependent betas}{37}{section*.12}%
+\contentsline {subsubsection}{Autoencoder-based factor models}{38}{section*.13}%
+\contentsline {subsection}{\numberline {4.7.4}Recent advances and critical perspectives}{38}{subsection.4.7.4}%
+\contentsline {section}{\numberline {4.8}Exercises}{39}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Predictability of asset returns}{40}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Metrics for predictability}{41}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Out-of-sample $R^2$}{41}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Information coefficient}{41}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Hit ratio}{41}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Time-series predictability of the equity premium}{41}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}An open question}{41}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Non-stationarity and regime dependence}{42}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Cross-sectional predictability}{42}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}The landscape}{42}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}The tails of the return distribution}{43}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Stability and the decline of anomalies}{43}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Pockets of predictability}{43}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}The core idea}{43}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Implementation}{43}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}The information coefficient through time}{45}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Feature-level predictability}{45}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Cumulative OOS $R^2$ and investor value}{50}{subsection.5.4.5}%
+\contentsline {section}{\numberline {5.5}Predicting anomaly returns}{50}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Forecasting company fundamentals}{52}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Comparing predictability across models}{52}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Conclusion}{53}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Exercises}{53}{section.5.9}%
+\contentsline {chapter}{\numberline {6}Data preprocessing}{55}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Setup and Imports}{55}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Know your data}{55}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Boxplot of correlations with the 1M forward return (label)}{56}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Missing data}{57}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Outlier detection}{60}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Feature engineering}{60}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Feature selection}{61}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Scaling the predictors}{61}{subsection.6.5.2}%
+\contentsline {section}{\numberline {6.6}Labelling}{62}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Simple labels}{62}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Categorical labels}{63}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}The triple barrier method}{64}{subsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.6.4}Filtering the sample}{64}{subsection.6.6.4}%
+\contentsline {subsection}{\numberline {6.6.5}Return horizons}{65}{subsection.6.6.5}%
+\contentsline {section}{\numberline {6.7}Handling persistence}{66}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Extensions}{66}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Transforming features}{66}{subsection.6.8.1}%
+\contentsline {subsection}{\numberline {6.8.2}Macro-economic variables}{66}{subsection.6.8.2}%
+\contentsline {subsection}{\numberline {6.8.3}Active learning}{67}{subsection.6.8.3}%
+\contentsline {section}{\numberline {6.9}Additional code and results}{68}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Impact of rescaling: graphical representation}{68}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}Impact of rescaling: toy example}{70}{subsection.6.9.2}%
+\contentsline {section}{\numberline {6.10}Labelling}{72}{section.6.10}%
+\contentsline {subsection}{\numberline {6.10.1}Simple labels}{72}{subsection.6.10.1}%
+\contentsline {subsection}{\numberline {6.10.2}Categorical labels}{72}{subsection.6.10.2}%
+\contentsline {subsection}{\numberline {6.10.3}Dynamic thresholds with VIX conditioning}{72}{subsection.6.10.3}%
+\contentsline {section}{\numberline {6.11}Extensions}{72}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Transforming features}{72}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}Macro-economic conditioning}{73}{subsection.6.11.2}%
+\contentsline {section}{\numberline {6.12}Coding exercises}{73}{section.6.12}%
+\contentsline {part}{II\hspace {1em}Common supervised algorithms}{74}{part.2}%
+\contentsline {chapter}{\numberline {7}Penalized regressions and sparse hedging for minimum variance portfolios}{75}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Penalized regressions}{75}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Simple regressions}{75}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Forms of penalizations}{76}{subsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.1.3}Illustrations}{78}{subsection.7.1.3}%
+\contentsline {section}{\numberline {7.2}Sparse hedging for minimum variance portfolios}{81}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Presentation and derivations}{81}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Example}{83}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Predictive regressions}{84}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Literature review and principle}{84}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Code and results}{85}{subsection.7.3.2}%
+\contentsline {section}{\numberline {7.4}Coding exercise}{86}{section.7.4}%
+\contentsline {chapter}{\numberline {8}Tree-based methods}{87}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Simple trees}{87}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Principle}{87}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Further details on classification}{89}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Pruning criteria}{89}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Code and interpretation}{90}{subsection.8.1.4}%
+\contentsline {section}{\numberline {8.2}Random forests}{93}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Principle}{93}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Code and results}{94}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}Boosted trees: Adaboost}{96}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Methodology}{96}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Illustration}{98}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.4}Boosted trees: extreme gradient boosting}{99}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Managing loss}{99}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}Penalization}{100}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.3}Aggregation}{100}{subsection.8.4.3}%
+\contentsline {subsection}{\numberline {8.4.4}Tree structure}{101}{subsection.8.4.4}%
+\contentsline {subsection}{\numberline {8.4.5}Extensions}{101}{subsection.8.4.5}%
+\contentsline {subsection}{\numberline {8.4.6}Code and results}{102}{subsection.8.4.6}%
+\contentsline {subsection}{\numberline {8.4.7}Instance weighting}{104}{subsection.8.4.7}%
+\contentsline {section}{\numberline {8.5}Discussion}{105}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Recent advances}{105}{subsection.8.5.1}%
+\contentsline {section}{\numberline {8.6}Coding exercises}{105}{section.8.6}%
+\contentsline {chapter}{\numberline {9}Neural networks}{107}{chapter.9}%
+\contentsline {section}{\numberline {9.1}The original perceptron}{107}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Multilayer perceptron}{108}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Introduction and notations}{108}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Universal approximation}{109}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Learning via back-propagation}{109}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}Further details on classification}{110}{subsection.9.2.4}%
+\contentsline {section}{\numberline {9.3}How deep we should go and other practical issues}{110}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Architectural choices}{110}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Penalizations and dropout}{110}{subsection.9.3.2}%
+\contentsline {section}{\numberline {9.4}Code samples and comments for vanilla MLP}{111}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Regression example}{111}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}Classification example}{112}{subsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.4.3}Custom losses}{114}{subsection.9.4.3}%
+\contentsline {section}{\numberline {9.5}Recurrent networks}{114}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Presentation}{114}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}Code and results}{115}{subsection.9.5.2}%
+\contentsline {section}{\numberline {9.6}Other common architectures}{116}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}Generative adversarial networks}{116}{subsection.9.6.1}%
+\contentsline {subsection}{\numberline {9.6.2}Autoencoders}{116}{subsection.9.6.2}%
+\contentsline {subsection}{\numberline {9.6.3}A word on convolutional networks}{116}{subsection.9.6.3}%
+\contentsline {section}{\numberline {9.7}Foundation models for tabular data}{117}{section.9.7}%
+\contentsline {subsection}{\numberline {9.7.1}Presentation}{117}{subsection.9.7.1}%
+\contentsline {subsection}{\numberline {9.7.2}Code and results}{118}{subsection.9.7.2}%
+\contentsline {section}{\numberline {9.8}Coding exercises}{119}{section.9.8}%
+\contentsline {chapter}{\numberline {10}Graph neural networks}{120}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Introduction}{120}{section.10.1}%
+\contentsline {section}{\numberline {10.2}The graph convolutional network}{121}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}From a table to a sequence of graphs}{121}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Message passing and the propagation rule}{121}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}The graph-free limit and the ablation}{121}{subsection.10.2.3}%
+\contentsline {section}{\numberline {10.3}Dealing with GNN-specific issues}{122}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Building the equity graph}{122}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}Over-smoothing and depth}{122}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}Over-squashing and heterophily}{122}{subsection.10.3.3}%
+\contentsline {subsection}{\numberline {10.3.4}The tabular-data handicap}{123}{subsection.10.3.4}%
+\contentsline {section}{\numberline {10.4}A GNN on the equity panel}{123}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}A graph layer from scratch, then in PyTorch Geometric}{123}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}Benchmarking against the graph-free control and LightGBM}{127}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}The ablation, and what survives the noise}{137}{subsection.10.4.3}%
+\contentsline {section}{\numberline {10.5}Other families of graph models}{138}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Sampling and attention: GraphSAGE, GAT and GATv2}{138}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Sum aggregation and typed edges: GIN and R-GCN}{139}{subsection.10.5.2}%
+\contentsline {subsection}{\numberline {10.5.3}Temporal and spatio-temporal graphs}{139}{subsection.10.5.3}%
+\contentsline {section}{\numberline {10.6}Interpretability}{140}{section.10.6}%
+\contentsline {section}{\numberline {10.7}Coding exercises}{142}{section.10.7}%
+\contentsline {section}{\numberline {10.8}References}{142}{section.10.8}%
+\contentsline {chapter}{\numberline {11}Support vector machines}{143}{chapter.11}%
+\contentsline {section}{\numberline {11.1}SVM for classification}{143}{section.11.1}%
+\contentsline {section}{\numberline {11.2}SVM for regression}{145}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Practice}{146}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Coding exercises}{148}{section.11.4}%
+\contentsline {chapter}{\numberline {12}Bayesian methods}{149}{chapter.12}%
+\contentsline {section}{\numberline {12.1}The Bayesian framework}{149}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Bayesian sampling}{150}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}Gibbs sampling}{150}{subsection.12.2.1}%
+\contentsline {subsection}{\numberline {12.2.2}Metropolis-Hastings sampling}{151}{subsection.12.2.2}%
+\contentsline {section}{\numberline {12.3}Bayesian linear regression}{151}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Naive Bayes classifier}{155}{section.12.4}%
+\contentsline {section}{\numberline {12.5}Bayesian additive trees}{157}{section.12.5}%
+\contentsline {subsection}{\numberline {12.5.1}General formulation}{157}{subsection.12.5.1}%
+\contentsline {subsection}{\numberline {12.5.2}Priors}{157}{subsection.12.5.2}%
+\contentsline {subsection}{\numberline {12.5.3}Sampling and predictions}{158}{subsection.12.5.3}%
+\contentsline {subsection}{\numberline {12.5.4}Code}{159}{subsection.12.5.4}%
+\contentsline {chapter}{\numberline {13}Genetic algorithms for portfolio optimisation and factor investing}{163}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Introduction}{163}{section.13.1}%
+\contentsline {subsection}{\numberline {13.1.1}Motivation}{163}{subsection.13.1.1}%
+\contentsline {subsection}{\numberline {13.1.2}Historical evolution}{164}{subsection.13.1.2}%
+\contentsline {section}{\numberline {13.2}Genetic algorithm fundamentals}{165}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}What is a genetic algorithm?}{165}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}How GAs differ from other optimisers}{166}{subsection.13.2.2}%
+\contentsline {subsection}{\numberline {13.2.3}The GA workflow}{166}{subsection.13.2.3}%
+\contentsline {subsection}{\numberline {13.2.4}Genetic algorithms versus genetic programming}{167}{subsection.13.2.4}%
+\contentsline {subsection}{\numberline {13.2.5}Toy example: a miniature feature-selection GA}{167}{subsection.13.2.5}%
+\contentsline {section}{\numberline {13.3}GA building blocks}{170}{section.13.3}%
+\contentsline {subsection}{\numberline {13.3.1}Chromosome representation}{170}{subsection.13.3.1}%
+\contentsline {subsection}{\numberline {13.3.2}Fitness function design}{171}{subsection.13.3.2}%
+\contentsline {subsection}{\numberline {13.3.3}Selection operators}{171}{subsection.13.3.3}%
+\contentsline {subsection}{\numberline {13.3.4}Crossover operators}{172}{subsection.13.3.4}%
+\contentsline {subsection}{\numberline {13.3.5}Mutation operators}{172}{subsection.13.3.5}%
+\contentsline {subsection}{\numberline {13.3.6}Key parameters}{172}{subsection.13.3.6}%
+\contentsline {subsection}{\numberline {13.3.7}Demonstration: selection operators compared}{173}{subsection.13.3.7}%
+\contentsline {subsection}{\numberline {13.3.8}Demonstration: crossover operators compared}{174}{subsection.13.3.8}%
+\contentsline {subsection}{\numberline {13.3.9}Demonstration: parameter sensitivity}{175}{subsection.13.3.9}%
+\contentsline {section}{\numberline {13.4}Applications in factor investing}{176}{section.13.4}%
+\contentsline {subsection}{\numberline {13.4.1}Feature selection with GA}{176}{subsection.13.4.1}%
+\contentsline {subsection}{\numberline {13.4.2}Portfolio optimisation with cardinality constraints}{179}{subsection.13.4.2}%
+\contentsline {subsection}{\numberline {13.4.3}Hyperparameter tuning with GA}{182}{subsection.13.4.3}%
+\contentsline {subsection}{\numberline {13.4.4}Alpha factor discovery with genetic programming}{184}{subsection.13.4.4}%
+\contentsline {subsection}{\numberline {13.4.5}Frontiers and extensions}{187}{subsection.13.4.5}%
+\contentsline {subsubsection}{Trading strategy evolution}{187}{section*.45}%
+\contentsline {subsubsection}{Neuroevolution: evolving neural network architectures}{188}{section*.46}%
+\contentsline {subsubsection}{LLM-GA hybrids: the frontier of alpha mining}{189}{section*.47}%
+\contentsline {section}{\numberline {13.5}Multi-objective optimisation}{191}{section.13.5}%
+\contentsline {subsection}{\numberline {13.5.1}Pareto optimality}{191}{subsection.13.5.1}%
+\contentsline {subsection}{\numberline {13.5.2}The NSGA-II algorithm}{191}{subsection.13.5.2}%
+\contentsline {subsection}{\numberline {13.5.3}NSGA-III}{192}{subsection.13.5.3}%
+\contentsline {subsection}{\numberline {13.5.4}Application: return versus risk portfolio}{192}{subsection.13.5.4}%
+\contentsline {section}{\numberline {13.6}Full empirical application}{195}{section.13.6}%
+\contentsline {subsection}{\numberline {13.6.1}Setup and data}{195}{subsection.13.6.1}%
+\contentsline {subsection}{\numberline {13.6.2}Walk-forward protocol}{196}{subsection.13.6.2}%
+\contentsline {subsection}{\numberline {13.6.3}Results and discussion}{198}{subsection.13.6.3}%
+\contentsline {subsection}{\numberline {13.6.4}Multi-objective feature selection}{201}{subsection.13.6.4}%
+\contentsline {subsection}{\numberline {13.6.5}GA-tuned gradient boosting}{203}{subsection.13.6.5}%
+\contentsline {subsection}{\numberline {13.6.6}Reproducing three recent results}{205}{subsection.13.6.6}%
+\contentsline {section}{\numberline {13.7}Critical discussion}{208}{section.13.7}%
+\contentsline {subsection}{\numberline {13.7.1}The overfitting problem}{208}{subsection.13.7.1}%
+\contentsline {subsection}{\numberline {13.7.2}Computational cost}{209}{subsection.13.7.2}%
+\contentsline {subsection}{\numberline {13.7.3}Research gaps and future directions}{209}{subsection.13.7.3}%
+\contentsline {section}{\numberline {13.8}Coding exercises}{211}{section.13.8}%
+\contentsline {section}{\numberline {13.9}References}{211}{section.13.9}%
+\contentsline {part}{III\hspace {1em}From predictions to portfolios}{212}{part.3}%
+\contentsline {chapter}{\numberline {14}Validating and tuning}{213}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Learning metrics}{213}{section.14.1}%
+\contentsline {subsection}{\numberline {14.1.1}Regression analysis}{213}{subsection.14.1.1}%
+\contentsline {subsection}{\numberline {14.1.2}Classification analysis}{215}{subsection.14.1.2}%
+\contentsline {section}{\numberline {14.2}Validation}{217}{section.14.2}%
+\contentsline {subsection}{\numberline {14.2.1}The variance-bias tradeoff: theory}{219}{subsection.14.2.1}%
+\contentsline {subsection}{\numberline {14.2.2}The variance-bias tradeoff: illustration}{221}{subsection.14.2.2}%
+\contentsline {subsection}{\numberline {14.2.3}The risk of overfitting: principle}{224}{subsection.14.2.3}%
+\contentsline {subsection}{\numberline {14.2.4}The risk of overfitting: some solutions}{225}{subsection.14.2.4}%
+\contentsline {section}{\numberline {14.3}The search for good hyperparameters}{226}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}Methods}{226}{subsection.14.3.1}%
+\contentsline {subsection}{\numberline {14.3.2}Example: grid search}{227}{subsection.14.3.2}%
+\contentsline {subsection}{\numberline {14.3.3}Example: Bayesian optimization}{229}{subsection.14.3.3}%
+\contentsline {section}{\numberline {14.4}Short discussion on validation in backtests}{231}{section.14.4}%
+\contentsline {chapter}{\numberline {15}Ensemble models}{234}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Linear ensembles}{234}{section.15.1}%
+\contentsline {subsection}{\numberline {15.1.1}Principles}{234}{subsection.15.1.1}%
+\contentsline {subsection}{\numberline {15.1.2}Example}{236}{subsection.15.1.2}%
+\contentsline {section}{\numberline {15.2}Stacked ensembles}{240}{section.15.2}%
+\contentsline {subsection}{\numberline {15.2.1}Two-stage training}{240}{subsection.15.2.1}%
+\contentsline {subsection}{\numberline {15.2.2}Code and results}{241}{subsection.15.2.2}%
+\contentsline {section}{\numberline {15.3}Extensions}{242}{section.15.3}%
+\contentsline {subsection}{\numberline {15.3.1}Exogenous variables}{242}{subsection.15.3.1}%
+\contentsline {subsection}{\numberline {15.3.2}Shrinking inter-model correlations}{243}{subsection.15.3.2}%
+\contentsline {section}{\numberline {15.4}Exercise}{246}{section.15.4}%
+\contentsline {chapter}{\numberline {16}Portfolio backtesting}{248}{chapter.16}%
+\contentsline {section}{\numberline {16.1}Setting the protocol}{248}{section.16.1}%
+\contentsline {section}{\numberline {16.2}Turning signals into portfolio weights}{250}{section.16.2}%
+\contentsline {section}{\numberline {16.3}Performance metrics}{252}{section.16.3}%
+\contentsline {subsection}{\numberline {16.3.1}Discussion}{252}{subsection.16.3.1}%
+\contentsline {subsection}{\numberline {16.3.2}Pure performance and risk indicators}{252}{subsection.16.3.2}%
+\contentsline {subsection}{\numberline {16.3.3}Factor-based evaluation}{254}{subsection.16.3.3}%
+\contentsline {subsection}{\numberline {16.3.4}Risk-adjusted measures}{254}{subsection.16.3.4}%
+\contentsline {subsection}{\numberline {16.3.5}Transaction costs and turnover}{255}{subsection.16.3.5}%
+\contentsline {section}{\numberline {16.4}Common errors and issues}{255}{section.16.4}%
+\contentsline {subsection}{\numberline {16.4.1}Forward looking data}{255}{subsection.16.4.1}%
+\contentsline {subsection}{\numberline {16.4.2}Backtest overfitting}{256}{subsection.16.4.2}%
+\contentsline {subsection}{\numberline {16.4.3}Simple safeguards}{257}{subsection.16.4.3}%
+\contentsline {section}{\numberline {16.5}Implication of non-stationarity: forecasting is hard}{257}{section.16.5}%
+\contentsline {subsection}{\numberline {16.5.1}General comments}{257}{subsection.16.5.1}%
+\contentsline {subsection}{\numberline {16.5.2}The no free lunch theorem}{258}{subsection.16.5.2}%
+\contentsline {section}{\numberline {16.6}First example: a complete backtest}{258}{section.16.6}%
+\contentsline {section}{\numberline {16.7}Second example: backtest overfitting}{263}{section.16.7}%
+\contentsline {section}{\numberline {16.8}Coding exercises}{267}{section.16.8}%
+\contentsline {chapter}{\numberline {17}Uncertainty quantification and conformal prediction}{268}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Sources of prediction uncertainty}{268}{section.17.1}%
+\contentsline {section}{\numberline {17.2}Conformal prediction}{268}{section.17.2}%
+\contentsline {subsection}{\numberline {17.2.1}The split conformal algorithm}{269}{subsection.17.2.1}%
+\contentsline {section}{\numberline {17.3}Uncertainty adjusted portfolio sorting}{272}{section.17.3}%
+\contentsline {section}{\numberline {17.4}Machine forecast disagreement}{272}{section.17.4}%
+\contentsline {section}{\numberline {17.5}Ambiguity aversion and portfolio choice}{273}{section.17.5}%
+\contentsline {section}{\numberline {17.6}Time varying uncertainty and signal selection}{273}{section.17.6}%
+\contentsline {section}{\numberline {17.7}Uncertainty in large language model predictions}{274}{section.17.7}%
+\contentsline {section}{\numberline {17.8}Exercises}{274}{section.17.8}%
+\contentsline {chapter}{\numberline {18}Design uncertainty and nonstandard errors}{275}{chapter.18}%
+\contentsline {section}{\numberline {18.1}The garden of forking paths}{275}{section.18.1}%
+\contentsline {subsection}{\numberline {18.1.1}A protocol as a sequence of choices}{275}{subsection.18.1.1}%
+\contentsline {section}{\numberline {18.2}Standard and nonstandard errors}{276}{section.18.2}%
+\contentsline {section}{\numberline {18.3}Why correlation across paths matters}{277}{section.18.3}%
+\contentsline {section}{\numberline {18.4}The nonstandard Sharpe ratio}{277}{section.18.4}%
+\contentsline {section}{\numberline {18.5}A worked example: the value premium}{278}{section.18.5}%
+\contentsline {subsection}{\numberline {18.5.1}Resampling and the correlation across paths}{281}{subsection.18.5.1}%
+\contentsline {subsection}{\numberline {18.5.2}Which choice matters most?}{284}{subsection.18.5.2}%
+\contentsline {section}{\numberline {18.6}Practical guidance}{285}{section.18.6}%
+\contentsline {section}{\numberline {18.7}Exercises}{285}{section.18.7}%
+\contentsline {part}{IV\hspace {1em}Further important concepts}{287}{part.4}%
+\contentsline {chapter}{\numberline {19}Complexity and overparametrized models}{288}{chapter.19}%
+\contentsline {section}{\numberline {19.1}The classical view and its limits}{288}{section.19.1}%
+\contentsline {section}{\numberline {19.2}Random Fourier Features as a complexity dial}{289}{section.19.2}%
+\contentsline {section}{\numberline {19.3}The double-descent in equity return prediction}{290}{section.19.3}%
+\contentsline {subsection}{\numberline {19.3.1}Setup}{290}{subsection.19.3.1}%
+\contentsline {subsection}{\numberline {19.3.2}The double-descent curve}{291}{subsection.19.3.2}%
+\contentsline {subsection}{\numberline {19.3.3}OOS $R^2$ as a function of complexity}{293}{subsection.19.3.3}%
+\contentsline {subsection}{\numberline {19.3.4}Sensitivity to the training window size}{294}{subsection.19.3.4}%
+\contentsline {section}{\numberline {19.4}The virtue of complexity: finance debate}{294}{section.19.4}%
+\contentsline {subsection}{\numberline {19.4.1}The original claim}{294}{subsection.19.4.1}%
+\contentsline {subsection}{\numberline {19.4.2}The critique}{296}{subsection.19.4.2}%
+\contentsline {subsection}{\numberline {19.4.3}Global versus regional models}{296}{subsection.19.4.3}%
+\contentsline {subsection}{\numberline {19.4.4}Nonlinearity and distributional structure}{296}{subsection.19.4.4}%
+\contentsline {section}{\numberline {19.5}Theoretical perspectives}{296}{section.19.5}%
+\contentsline {subsection}{\numberline {19.5.1}Projection learning}{296}{subsection.19.5.1}%
+\contentsline {subsection}{\numberline {19.5.2}Large and deep factor models}{297}{subsection.19.5.2}%
+\contentsline {subsection}{\numberline {19.5.3}Complexity in agents' minds}{297}{subsection.19.5.3}%
+\contentsline {section}{\numberline {19.6}Conclusion}{297}{section.19.6}%
+\contentsline {section}{\numberline {19.7}Exercises}{298}{section.19.7}%
+\contentsline {chapter}{\numberline {20}Interpretability}{299}{chapter.20}%
+\contentsline {section}{\numberline {20.1}Global interpretations}{299}{section.20.1}%
+\contentsline {subsection}{\numberline {20.1.1}Simple models as surrogates}{299}{subsection.20.1.1}%
+\contentsline {subsection}{\numberline {20.1.2}Variable importance (tree-based)}{301}{subsection.20.1.2}%
+\contentsline {subsection}{\numberline {20.1.3}Variable importance (agnostic)}{302}{subsection.20.1.3}%
+\contentsline {subsection}{\numberline {20.1.4}Partial dependence plot}{304}{subsection.20.1.4}%
+\contentsline {section}{\numberline {20.2}Local interpretations}{306}{section.20.2}%
+\contentsline {subsection}{\numberline {20.2.1}LIME}{306}{subsection.20.2.1}%
+\contentsline {subsection}{\numberline {20.2.2}Shapley values}{311}{subsection.20.2.2}%
+\contentsline {subsection}{\numberline {20.2.3}Breakdown}{312}{subsection.20.2.3}%
+\contentsline {chapter}{\numberline {21}Two key concepts: causality and non-stationarity}{315}{chapter.21}%
+\contentsline {section}{\numberline {21.1}Causality}{316}{section.21.1}%
+\contentsline {subsection}{\numberline {21.1.1}Granger causality}{316}{subsection.21.1.1}%
+\contentsline {subsection}{\numberline {21.1.2}Causal additive models}{319}{subsection.21.1.2}%
+\contentsline {subsection}{\numberline {21.1.3}Modern Causal Inference: DoWhy and Double Machine Learning}{322}{subsection.21.1.3}%
+\contentsline {subsection}{\numberline {21.1.4}Structural time series models}{324}{subsection.21.1.4}%
+\contentsline {section}{\numberline {21.2}Dealing with changing environments}{326}{section.21.2}%
+\contentsline {subsection}{\numberline {21.2.1}Non-stationarity: yet another illustration}{328}{subsection.21.2.1}%
+\contentsline {subsection}{\numberline {21.2.2}Detecting Concept Drift}{331}{subsection.21.2.2}%
+\contentsline {subsection}{\numberline {21.2.3}Online learning}{331}{subsection.21.2.3}%
+\contentsline {subsection}{\numberline {21.2.4}Homogeneous transfer learning}{335}{subsection.21.2.4}%
+\contentsline {chapter}{\numberline {22}Unsupervised learning}{337}{chapter.22}%
+\contentsline {section}{\numberline {22.1}The problem with correlated predictors}{337}{section.22.1}%
+\contentsline {section}{\numberline {22.2}Principal component analysis and autoencoders}{340}{section.22.2}%
+\contentsline {subsection}{\numberline {22.2.1}A bit of algebra}{340}{subsection.22.2.1}%
+\contentsline {subsection}{\numberline {22.2.2}PCA}{340}{subsection.22.2.2}%
+\contentsline {subsection}{\numberline {22.2.3}Scree plot and explained variance}{343}{subsection.22.2.3}%
+\contentsline {subsection}{\numberline {22.2.4}Autoencoders}{344}{subsection.22.2.4}%
+\contentsline {subsection}{\numberline {22.2.5}Application}{345}{subsection.22.2.5}%
+\contentsline {subsection}{\numberline {22.2.6}Variational Autoencoders (VAE)}{347}{subsection.22.2.6}%
+\contentsline {section}{\numberline {22.3}Visualization via t-SNE}{347}{section.22.3}%
+\contentsline {section}{\numberline {22.4}Clustering via k-means}{348}{section.22.4}%
+\contentsline {subsection}{\numberline {22.4.1}Choosing the optimal number of clusters}{350}{subsection.22.4.1}%
+\contentsline {subsection}{\numberline {22.4.2}Hierarchical clustering}{351}{subsection.22.4.2}%
+\contentsline {section}{\numberline {22.5}Nearest neighbors}{351}{section.22.5}%
+\contentsline {subsection}{\numberline {22.5.1}Ball Tree and KD Tree for efficient k-NN}{353}{subsection.22.5.1}%
+\contentsline {section}{\numberline {22.6}Anomaly detection with Isolation Forest}{354}{section.22.6}%
+\contentsline {section}{\numberline {22.7}Coding exercise}{354}{section.22.7}%
+\contentsline {chapter}{\numberline {23}Reinforcement learning}{357}{chapter.23}%
+\contentsline {section}{\numberline {23.1}Theoretical layout}{357}{section.23.1}%
+\contentsline {subsection}{\numberline {23.1.1}General framework}{357}{subsection.23.1.1}%
+\contentsline {subsection}{\numberline {23.1.2}Q-learning}{359}{subsection.23.1.2}%
+\contentsline {subsection}{\numberline {23.1.3}SARSA}{360}{subsection.23.1.3}%
+\contentsline {section}{\numberline {23.2}The curse of dimensionality}{361}{section.23.2}%
+\contentsline {section}{\numberline {23.3}Policy gradient}{362}{section.23.3}%
+\contentsline {subsection}{\numberline {23.3.1}Principle}{362}{subsection.23.3.1}%
+\contentsline {subsection}{\numberline {23.3.2}Extensions}{362}{subsection.23.3.2}%
+\contentsline {section}{\numberline {23.4}Simple examples}{364}{section.23.4}%
+\contentsline {subsection}{\numberline {23.4.1}Setup and Imports}{364}{subsection.23.4.1}%
+\contentsline {subsection}{\numberline {23.4.2}Q-learning with simulations}{364}{subsection.23.4.2}%
+\contentsline {subsection}{\numberline {23.4.3}Visualization of the Q-function}{367}{subsection.23.4.3}%
+\contentsline {subsection}{\numberline {23.4.4}Q-learning with market data}{368}{subsection.23.4.4}%
+\contentsline {subsection}{\numberline {23.4.5}Visualization of Q-values for Market Data}{371}{subsection.23.4.5}%
+\contentsline {section}{\numberline {23.5}Modern RL Approaches: Deep Q-Networks}{372}{section.23.5}%
+\contentsline {section}{\numberline {23.6}Concluding remarks}{374}{section.23.6}%
+\contentsline {section}{\numberline {23.7}Exercises}{376}{section.23.7}%
+\contentsline {section}{\numberline {23.8}Additional Topics: Stable-Baselines3 Integration}{376}{section.23.8}%
+\contentsline {part}{V\hspace {1em}Natural language processing for factor investing}{378}{part.5}%
+\contentsline {chapter}{\numberline {24}Classical NLP for factor investing}{379}{chapter.24}%
+\contentsline {section}{\numberline {24.1}Introduction}{379}{section.24.1}%
+\contentsline {section}{\numberline {24.2}Text as a data class}{380}{section.24.2}%
+\contentsline {subsection}{\numberline {24.2.1}Corporate filings (10-K, 10-Q, 8-K, Forms 3/4/5, 13-F)}{381}{subsection.24.2.1}%
+\contentsline {subsection}{\numberline {24.2.2}Listed-company communications (annual reports, IR websites, conference presentations)}{381}{subsection.24.2.2}%
+\contentsline {subsection}{\numberline {24.2.3}Earnings call transcripts}{382}{subsection.24.2.3}%
+\contentsline {subsection}{\numberline {24.2.4}Public news and newswires}{382}{subsection.24.2.4}%
+\contentsline {subsection}{\numberline {24.2.5}Social media (Twitter/X, StockTwits, Reddit, message boards)}{382}{subsection.24.2.5}%
+\contentsline {subsection}{\numberline {24.2.6}Patents and intellectual property filings}{383}{subsection.24.2.6}%
+\contentsline {section}{\numberline {24.3}Text as data: preprocessing and representation}{383}{section.24.3}%
+\contentsline {subsection}{\numberline {24.3.1}From raw text to clean tokens}{383}{subsection.24.3.1}%
+\contentsline {subsection}{\numberline {24.3.2}Bag-of-words and term frequency}{386}{subsection.24.3.2}%
+\contentsline {section}{\numberline {24.4}Sentiment analysis with dictionaries}{387}{section.24.4}%
+\contentsline {subsection}{\numberline {24.4.1}The lexicon approach}{387}{subsection.24.4.1}%
+\contentsline {subsection}{\numberline {24.4.2}From sentiment scores to factor signals}{389}{subsection.24.4.2}%
+\contentsline {subsection}{\numberline {24.4.3}Limitations of dictionary methods}{390}{subsection.24.4.3}%
+\contentsline {section}{\numberline {24.5}Topic modeling}{392}{section.24.5}%
+\contentsline {subsection}{\numberline {24.5.1}Latent Dirichlet Allocation}{392}{subsection.24.5.1}%
+\contentsline {subsection}{\numberline {24.5.2}Financial applications}{392}{subsection.24.5.2}%
+\contentsline {subsection}{\numberline {24.5.3}Extensions}{394}{subsection.24.5.3}%
+\contentsline {section}{\numberline {24.6}Named entity recognition and event extraction}{395}{section.24.6}%
+\contentsline {subsection}{\numberline {24.6.1}Principle}{395}{subsection.24.6.1}%
+\contentsline {subsection}{\numberline {24.6.2}Applications in equity research}{395}{subsection.24.6.2}%
+\contentsline {section}{\numberline {24.7}Disclosure-based factors}{397}{section.24.7}%
+\contentsline {section}{\numberline {24.8}News and media-flow factors}{399}{section.24.8}%
+\contentsline {section}{\numberline {24.9}Coding exercises}{400}{section.24.9}%
+\contentsline {section}{\numberline {24.10}References}{400}{section.24.10}%
+\contentsline {chapter}{\numberline {25}Word and sentence embeddings}{401}{chapter.25}%
+\contentsline {section}{\numberline {25.1}Introduction}{401}{section.25.1}%
+\contentsline {section}{\numberline {25.2}From sparse to dense representations}{401}{section.25.2}%
+\contentsline {section}{\numberline {25.3}Document embeddings and similarity}{403}{section.25.3}%
+\contentsline {section}{\numberline {25.4}Sentence-transformer encoders}{404}{section.25.4}%
+\contentsline {section}{\numberline {25.5}From embeddings to sentiment signals}{406}{section.25.5}%
+\contentsline {section}{\numberline {25.6}ESG factors from text}{408}{section.25.6}%
+\contentsline {section}{\numberline {25.7}Complementarity with traditional factors}{410}{section.25.7}%
+\contentsline {subsection}{\numberline {25.7.1}Literature foundations and economic mechanisms}{410}{subsection.25.7.1}%
+\contentsline {subsection}{\numberline {25.7.2}Standalone signal content across horizons}{412}{subsection.25.7.2}%
+\contentsline {subsection}{\numberline {25.7.3}Spanning regression against Fama-French plus momentum}{415}{subsection.25.7.3}%
+\contentsline {subsection}{\numberline {25.7.4}Tree-based feature attribution}{418}{subsection.25.7.4}%
+\contentsline {subsection}{\numberline {25.7.5}Sentiment for conditioning factors}{424}{subsection.25.7.5}%
+\contentsline {section}{\numberline {25.8}Coding exercises}{426}{section.25.8}%
+\contentsline {section}{\numberline {25.9}References}{426}{section.25.9}%
+\contentsline {chapter}{\numberline {26}Transformers and pre-trained language models for finance}{427}{chapter.26}%
+\contentsline {section}{\numberline {26.1}Introduction}{427}{section.26.1}%
+\contentsline {section}{\numberline {26.2}Why attention changed everything}{427}{section.26.2}%
+\contentsline {section}{\numberline {26.3}Inside the transformer}{430}{section.26.3}%
+\contentsline {section}{\numberline {26.4}Architecture variants}{433}{section.26.4}%
+\contentsline {section}{\numberline {26.5}Transfer learning and fine-tuning}{434}{section.26.5}%
+\contentsline {section}{\numberline {26.6}BERT and masked language modelling}{434}{section.26.6}%
+\contentsline {section}{\numberline {26.7}Finance-specific models}{435}{section.26.7}%
+\contentsline {section}{\numberline {26.8}When to use FinBERT (and when not to)}{437}{section.26.8}%
+\contentsline {section}{\numberline {26.9}Coding exercises}{437}{section.26.9}%
+\contentsline {section}{\numberline {26.10}References}{437}{section.26.10}%
+\contentsline {chapter}{\numberline {27}Large language models for factor investing}{438}{chapter.27}%
+\contentsline {section}{\numberline {27.1}Introduction}{438}{section.27.1}%
+\contentsline {section}{\numberline {27.2}Model families and capabilities}{438}{section.27.2}%
+\contentsline {section}{\numberline {27.3}The inference ecosystem: serving, batching, and cost}{441}{section.27.3}%
+\contentsline {section}{\numberline {27.4}What makes an LLM ``large''}{443}{section.27.4}%
+\contentsline {section}{\numberline {27.5}Key techniques}{443}{section.27.5}%
+\contentsline {section}{\numberline {27.6}Finance-specific LLMs}{444}{section.27.6}%
+\contentsline {section}{\numberline {27.7}Retrieval-augmented generation}{445}{section.27.7}%
+\contentsline {section}{\numberline {27.8}Sentiment and tone extraction via prompting}{446}{section.27.8}%
+\contentsline {section}{\numberline {27.9}Summarization and information extraction}{449}{section.27.9}%
+\contentsline {section}{\numberline {27.10}Thematic classification and factor discovery}{450}{section.27.10}%
+\contentsline {section}{\numberline {27.11}LLM agents for financial research}{451}{section.27.11}%
+\contentsline {section}{\numberline {27.12}Evaluating LLM analysts: benchmarks and reality checks}{453}{section.27.12}%
+\contentsline {section}{\numberline {27.13}Current limitations}{454}{section.27.13}%
+\contentsline {section}{\numberline {27.14}The road ahead}{454}{section.27.14}%
+\contentsline {section}{\numberline {27.15}Coding exercises}{455}{section.27.15}%
+\contentsline {section}{\numberline {27.16}References}{456}{section.27.16}%
+\contentsline {chapter}{\numberline {28}End-to-end case study: building a text-based equity factor}{457}{chapter.28}%
+\contentsline {section}{\numberline {28.1}Introduction}{457}{section.28.1}%
+\contentsline {section}{\numberline {28.2}Model selection and validation}{457}{section.28.2}%
+\contentsline {section}{\numberline {28.3}Backtesting and timestamp discipline}{458}{section.28.3}%
+\contentsline {section}{\numberline {28.4}Look-ahead bias and training-data leakage in LLM-based signals}{458}{section.28.4}%
+\contentsline {section}{\numberline {28.5}Interpretability and compliance}{459}{section.28.5}%
+\contentsline {section}{\numberline {28.6}Frequency alignment: from quarterly text to monthly factors}{460}{section.28.6}%
+\contentsline {section}{\numberline {28.7}Computational cost}{461}{section.28.7}%
+\contentsline {section}{\numberline {28.8}Problem statement and hypothesis}{462}{section.28.8}%
+\contentsline {section}{\numberline {28.9}Data and feature construction}{462}{section.28.9}%
+\contentsline {section}{\numberline {28.10}Model training and evaluation}{464}{section.28.10}%
+\contentsline {section}{\numberline {28.11}Portfolio backtest}{465}{section.28.11}%
+\contentsline {section}{\numberline {28.12}Lessons learned}{468}{section.28.12}%
+\contentsline {section}{\numberline {28.13}Coding exercise}{469}{section.28.13}%
+\contentsline {section}{\numberline {28.14}References}{469}{section.28.14}%
+\contentsline {part}{VI\hspace {1em}Bibliography}{470}{part.6}%
