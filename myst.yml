@@ -7,14 +7,7 @@ project:
   copyright: '2027'
   github: https://github.com/shokru/mlfactor2.github.io
   bibliography:
-    - references.bib
-    - bib.bib
-    - predictability.bib
-    - complexity.bib
-    - nlp.bib
-    - ga.bib
-    - design.bib
-    - gnn.bib
+    - mlfactor.bib
   
   toc:
     - file: chap_00_preface.md
